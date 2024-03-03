@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #F2F2F2;
+    font-family: "Archivo Black", sans-serif;
+
+  font-style: normal;
+}
+.box img {
+    width: 120px;
+    width: 120PX;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.top {
+    background-image: url("family-camping-at-sunset.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100vw;
+    background-color: #333333;
+    padding-left: 160px;
+    padding-right: 160px;
+    height: 75px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+}
+header a:hover, header h4:hover {
+    color: rgb(232, 229, 229);
+}
+.top a {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: large;
+    margin-top: 50px;
+}
+.top a:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.4);
+    border: 1px solid white;
+}
+.top h1 {
+    font-size: 60px;
+    margin-top: -140px;
+}
+.top h4 {
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2, 330px);
+    
+    margin: 0 170px;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.box {
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.box h3{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.box p {
+    font-size: 1.2rem;
+}
+.one {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.two {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.three {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.four {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.five {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.six {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.midh {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.midh h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.midh p {
+    font-size: 18px;
+}
+.hbtm {
+    padding: 25px 0;
+    font-size: 22px;
+}
+.pbtm {
+    font-size: 17px;
+}
+.about ul li {
+    margin-left: 18px;
+    padding-bottom: 10px;
+}
+.about{
+    padding: 0 100px;
+}
+footer{
+    padding: 0 100px;
+    padding-bottom: 100px;
+}
+.material-symbols-outlined {
+    color: #434242;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.btmc {
+    display: flex;
+    justify-content: space-between;
+}
+.btmc input, textarea{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btmc form{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+.btmc button {
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.btmc button:hover {
+    background-color: #434242;
+}
+.ctdc {
+    display: flex;
+    margin-top: 20px;
+}
+.ctdc p {
+    margin-left: 8px;
+}
