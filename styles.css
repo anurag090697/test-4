@@ -7,8 +7,8 @@
 body {
     background-color: #F2F2F2;
     font-family: "Archivo Black", sans-serif;
-
-  font-style: normal;
+    position: relative;
+      font-style: normal;
 }
 .box img {
     width: 120px;
@@ -28,7 +28,8 @@ body {
     align-items: center;
     flex-direction: column;
     color: white;
-    
+    z-index: -6;
+    background-attachment: fixed;
 }
 
 header {
@@ -78,7 +79,7 @@ header a:hover, header h4:hover {
     display: grid;
     grid-template-columns: repeat(3, 360px);
     grid-template-rows: repeat(2, 330px);
-    
+    z-index: 1;
     margin: 0 170px;
     row-gap: 2rem;
     column-gap: 2rem;
